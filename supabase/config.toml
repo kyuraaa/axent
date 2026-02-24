@@ -1,0 +1,34 @@
+project_id = "kzjtqkauvetvdytgllnx"
+
+[functions.business-forecast]
+verify_jwt = true
+
+[functions.financial-advisor-chat]
+verify_jwt = true
+
+[functions.analyze-receipt]
+verify_jwt = true
+
+[functions.analyze-crypto-transaction]
+verify_jwt = true
+
+[functions.analyze-stock-transaction]
+verify_jwt = true
+
+[functions.stock-list]
+verify_jwt = false
+
+[functions.crypto-prices]
+verify_jwt = false
+
+[functions.exchange-rate]
+verify_jwt = false
+
+[functions.crypto-list]
+verify_jwt = true
+
+[functions.stock-prices]
+verify_jwt = false
+
+[functions.ai-command-executor]
+verify_jwt = true
